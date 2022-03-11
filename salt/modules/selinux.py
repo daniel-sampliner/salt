@@ -490,7 +490,7 @@ def fcontext_get_policy(
     )
     cmd = (
         "semanage fcontext -l | egrep "
-        + "'^{filespec}{spacer}{filetype}{spacer}{sel_user}:{sel_role}:{sel_type}:{sel_level}$'".format(
+        + "'^{filespec}{spacer}{filetype}{spacer}{sel_user}:{sel_role}:{sel_type}:{sel_level} ?$'".format(
             **cmd_kwargs
         )
     )

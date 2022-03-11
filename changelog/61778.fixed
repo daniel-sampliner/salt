@@ -1,0 +1,1 @@
+Handled trailing whitespaces returned by "semanage fcontext -l" command.
